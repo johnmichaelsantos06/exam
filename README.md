@@ -3,7 +3,7 @@
 * Run ``mvn clean install`` in the root folder of the project
 * Run ``java -jar target/exam-0.0.1-SNAPSHOT.jar``
 * Navigate to ``http://localhost:8000/gui`` to test GraphQL queries
-Note: http://localhost:8000/graphql is the url for the GraphQL API
+> **_NOTE:_** http://localhost:8000/graphql is the url for the GraphQL API
 
 # Improvements to be done
 * Implement a container based deployment such as Docker
