@@ -3,6 +3,23 @@
 * Run ``mvn clean install`` in the root folder of the project
 * Run ``java -jar target/exam-0.0.1-SNAPSHOT.jar``
 * Navigate to ``http://localhost:8000/gui`` to test GraphQL queries
+* Enter ``query productDetails {
+  productDetails {
+		id {
+      oid
+    }
+    catalogVersion
+    className
+    catalogClass
+    additionalImages
+    classificationAttributeList {
+      classificationClass
+      fullQualifier
+      name
+      qualifier
+    }
+  }
+}`` for the sample request parameter
 > **_NOTE:_** http://localhost:8000/graphql is the url for the GraphQL API
 
 # Improvements to be done
