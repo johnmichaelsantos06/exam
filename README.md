@@ -8,4 +8,4 @@
 * Implement a container based deployment such as Docker
 
 # Current issues
-* GraphQL SPQR is tested to work Spring Boot 2.6.8 and Java version 1.8 so guarantee of the code working when upgrading or downgrading the aforementioned technology is not yet tested
+* GraphQL SPQR is tested to work on Spring Boot 2.6.8 and Java version 1.8 so guarantee of the code working when upgrading or downgrading the aforementioned technology is not yet tested
