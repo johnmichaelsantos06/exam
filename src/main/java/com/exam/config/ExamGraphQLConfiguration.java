@@ -10,7 +10,7 @@ import graphql.schema.GraphQLSchema;
 import io.leangen.graphql.GraphQLSchemaGenerator;
 
 @Configuration
-public class ExamConfiguration {
+public class ExamGraphQLConfiguration {
 	
 	@Autowired
 	private SkuTestProductGraphqlApi skuTestProductGraphqlApi;
@@ -21,4 +21,5 @@ public class ExamConfiguration {
         		.withOperationsFromSingleton(skuTestProductGraphqlApi, SkuTestProductGraphqlApi.class)
         		.generate();
     }
+	
 }
