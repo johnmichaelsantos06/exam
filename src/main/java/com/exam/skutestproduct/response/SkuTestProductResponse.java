@@ -13,7 +13,7 @@ public class SkuTestProductResponse {
 	private String catalogName;
 	private String catalogVersion;
 	private String categoryName;
-	private List<Object> categoryPath;
+	private List<String> categoryPath;
 	private List<ClassificationAttributeList> classificationAttributeList;
 	private List<String> classificationClasses;
 	private String code;
@@ -90,7 +90,7 @@ public class SkuTestProductResponse {
 		return categoryName;
 	}
 
-	public List<Object> getCategoryPath() {
+	public List<String> getCategoryPath() {
 		return categoryPath;
 	}
 
@@ -290,7 +290,7 @@ public class SkuTestProductResponse {
 		this.categoryName = categoryName;
 	}
 
-	public void setCategoryPath(List<Object> categoryPath) {
+	public void setCategoryPath(List<String> categoryPath) {
 		this.categoryPath = categoryPath;
 	}
 
