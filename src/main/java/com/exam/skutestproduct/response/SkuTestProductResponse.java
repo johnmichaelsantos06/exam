@@ -314,7 +314,7 @@ public class SkuTestProductResponse {
 		this.createdViaSKULibrary = createdViaSKULibrary;
 	}
 
-	public void setCreationtime(CreationTime creationtime) {
+	public void setCreationtime(SkuTime creationtime) {
 		this.creationtime = creationtime;
 	}
 
