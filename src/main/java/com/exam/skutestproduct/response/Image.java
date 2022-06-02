@@ -3,7 +3,7 @@ package com.exam.skutestproduct.response;
 public class Image {
 	private int index;
 	private boolean clippingPath;
-	private ModifiedTime modifiedTime;
+	private SkuTime modifiedTime;
 	private String format;
 	private String resolution;
 	private String url;
@@ -16,7 +16,7 @@ public class Image {
 		return clippingPath;
 	}
 
-	public ModifiedTime getModifiedTime() {
+	public SkuTime getModifiedTime() {
 		return modifiedTime;
 	}
 
@@ -40,7 +40,7 @@ public class Image {
 		this.clippingPath = clippingPath;
 	}
 
-	public void setModifiedTime(ModifiedTime modifiedTime) {
+	public void setModifiedTime(SkuTime modifiedTime) {
 		this.modifiedTime = modifiedTime;
 	}
 

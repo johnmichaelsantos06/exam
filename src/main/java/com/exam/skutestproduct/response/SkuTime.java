@@ -4,9 +4,13 @@ import java.util.Date;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-public class LastEditedTime {
+public class SkuTime {
 	@JsonProperty("$date")
 	private Date date;
+
+	public SkuTime() {
+		super();
+	}
 
 	public Date getDate() {
 		return date;
@@ -15,4 +19,5 @@ public class LastEditedTime {
 	public void setDate(Date date) {
 		this.date = date;
 	}
+
 }

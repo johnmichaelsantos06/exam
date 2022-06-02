@@ -19,31 +19,31 @@ public class SkuTestProductResponse {
 	private String code;
 	private boolean createdFromER;
 	private boolean createdViaSKULibrary;
-	private Creationtime creationtime;
+	private SkuTime creationtime;
 	private boolean dueDateRequiresEval;
 	private String ean;
 	private boolean eligible;
 	private String frontImages;
 	private boolean hasExportErrors;
 	private boolean hasImportErrors;
-	private ImageChangeTime imageChangeTime;
+	private SkuTime imageChangeTime;
 	private List<Image> images;
 	private boolean imagesCheckedOut;
 	private boolean isSupplierContentAvailable;
 	private boolean isSupplierImagesAvailable;
-	private LastEditedTime lastEditedTime;
+	private SkuTime lastEditedTime;
 	private String lastEditedUser;
 	private String medalStatus;
-	private ModifiedTime modifiedtime;
+	private SkuTime modifiedtime;
 	private String name;
-	private OfflineDate offlineDate;
-	private OnlineDate onlineDate;
+	private SkuTime offlineDate;
+	private SkuTime onlineDate;
 	private String pk;
 	private boolean printReady;
-	private ProductChangeTime productChangeTime;
+	private SkuTime productChangeTime;
 	private String productContentQuality;
 	private String rejectedReasonAddedBy;
-	private RejectedReasonModifiedTime rejectedReasonModifiedTime;
+	private SkuTime rejectedReasonModifiedTime;
 	private String shortCode;
 	private String statusCode;
 	private String supercategories;
@@ -114,7 +114,7 @@ public class SkuTestProductResponse {
 		return createdViaSKULibrary;
 	}
 
-	public Creationtime getCreationtime() {
+	public SkuTime getCreationtime() {
 		return creationtime;
 	}
 
@@ -142,7 +142,7 @@ public class SkuTestProductResponse {
 		return hasImportErrors;
 	}
 
-	public ImageChangeTime getImageChangeTime() {
+	public SkuTime getImageChangeTime() {
 		return imageChangeTime;
 	}
 
@@ -162,7 +162,7 @@ public class SkuTestProductResponse {
 		return isSupplierImagesAvailable;
 	}
 
-	public LastEditedTime getLastEditedTime() {
+	public SkuTime getLastEditedTime() {
 		return lastEditedTime;
 	}
 
@@ -174,7 +174,7 @@ public class SkuTestProductResponse {
 		return medalStatus;
 	}
 
-	public ModifiedTime getModifiedtime() {
+	public SkuTime getModifiedtime() {
 		return modifiedtime;
 	}
 
@@ -182,11 +182,11 @@ public class SkuTestProductResponse {
 		return name;
 	}
 
-	public OfflineDate getOfflineDate() {
+	public SkuTime getOfflineDate() {
 		return offlineDate;
 	}
 
-	public OnlineDate getOnlineDate() {
+	public SkuTime getOnlineDate() {
 		return onlineDate;
 	}
 
@@ -198,7 +198,7 @@ public class SkuTestProductResponse {
 		return printReady;
 	}
 
-	public ProductChangeTime getProductChangeTime() {
+	public SkuTime getProductChangeTime() {
 		return productChangeTime;
 	}
 
@@ -210,7 +210,7 @@ public class SkuTestProductResponse {
 		return rejectedReasonAddedBy;
 	}
 
-	public RejectedReasonModifiedTime getRejectedReasonModifiedTime() {
+	public SkuTime getRejectedReasonModifiedTime() {
 		return rejectedReasonModifiedTime;
 	}
 
@@ -314,7 +314,7 @@ public class SkuTestProductResponse {
 		this.createdViaSKULibrary = createdViaSKULibrary;
 	}
 
-	public void setCreationtime(Creationtime creationtime) {
+	public void setCreationtime(CreationTime creationtime) {
 		this.creationtime = creationtime;
 	}
 
@@ -342,7 +342,7 @@ public class SkuTestProductResponse {
 		this.hasImportErrors = hasImportErrors;
 	}
 
-	public void setImageChangeTime(ImageChangeTime imageChangeTime) {
+	public void setImageChangeTime(SkuTime imageChangeTime) {
 		this.imageChangeTime = imageChangeTime;
 	}
 
@@ -362,7 +362,7 @@ public class SkuTestProductResponse {
 		this.isSupplierImagesAvailable = isSupplierImagesAvailable;
 	}
 
-	public void setLastEditedTime(LastEditedTime lastEditedTime) {
+	public void setLastEditedTime(SkuTime lastEditedTime) {
 		this.lastEditedTime = lastEditedTime;
 	}
 
@@ -374,7 +374,7 @@ public class SkuTestProductResponse {
 		this.medalStatus = medalStatus;
 	}
 
-	public void setModifiedtime(ModifiedTime modifiedtime) {
+	public void setModifiedtime(SkuTime modifiedtime) {
 		this.modifiedtime = modifiedtime;
 	}
 
@@ -382,11 +382,11 @@ public class SkuTestProductResponse {
 		this.name = name;
 	}
 
-	public void setOfflineDate(OfflineDate offlineDate) {
+	public void setOfflineDate(SkuTime offlineDate) {
 		this.offlineDate = offlineDate;
 	}
 
-	public void setOnlineDate(OnlineDate onlineDate) {
+	public void setOnlineDate(SkuTime onlineDate) {
 		this.onlineDate = onlineDate;
 	}
 
@@ -398,7 +398,7 @@ public class SkuTestProductResponse {
 		this.printReady = printReady;
 	}
 
-	public void setProductChangeTime(ProductChangeTime productChangeTime) {
+	public void setProductChangeTime(SkuTime productChangeTime) {
 		this.productChangeTime = productChangeTime;
 	}
 
@@ -410,7 +410,7 @@ public class SkuTestProductResponse {
 		this.rejectedReasonAddedBy = rejectedReasonAddedBy;
 	}
 
-	public void setRejectedReasonModifiedTime(RejectedReasonModifiedTime rejectedReasonModifiedTime) {
+	public void setRejectedReasonModifiedTime(SkuTime rejectedReasonModifiedTime) {
 		this.rejectedReasonModifiedTime = rejectedReasonModifiedTime;
 	}
 
